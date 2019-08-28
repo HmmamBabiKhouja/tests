@@ -5,3 +5,20 @@
     user-select: none;
     outline: none;
 }
+
+body{
+    text-align: center;
+}
+
+div{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    border: 1px solid #000000;
+}
