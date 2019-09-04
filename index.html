@@ -3,20 +3,37 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width">
+    <link rel=" stylesheet" href="style.css">
     <title></title>
 </head>
 
 <body>
-    <div>
-        <img srcset="images/1(4000w).jpg 4000w,
-                images/1(3000w).jpg 3000w,
-                images/1(2000w).jpg 2000w,
-                images/1(1006w).jpg 1006w," alt="" />
 
-        <img src="images/fallback.jpg" alt="">
-    </div>
+    <header></header>
+    <h2>this is my website</h2>
+    <img class="pic1" srcset="images/1(320w).jpg 320w,
+                images/1(425w).jpg 425w,
+                images/1(768w).jpg 768w,
+                images/1(1024w).jpg 1024w,
+                images/1(1440w).jpg 1440w" sizes="(max-width:320px) 60vw,
+                        (max-width:425px) 60vw,
+                        (max-width:768px) 60vw,
+                        (max-width:1024px) 60vw,
+                        (max-width:1440px) 60vw,
+                        1024px" src="images/1(1024).jpg" alt="" />
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad error nemo voluptatem voluptates consequuntur est
+        doloremque dignissimos vitae! Beatae earum, necessitatibus assumenda facilis dignissimos rem laudantium vel
+        optio impedit in!</p>
+
+    <picture class="elva">
+        <source media="(max-width: 799px)" srcset="images/elva-800w(cropped).jpg">
+        <source media="(min-width:800px)" srcset="images/elva-800w.jpg">
+        <img src="images/elva-800w.jpg" alt="">    
+    </picture>    
+
+
+    <picture></picture>
 </body>
 
 </html>

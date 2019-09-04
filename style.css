@@ -6,19 +6,38 @@
     outline: none;
 }
 
+html{
+    background-color:#bbbbbb;
+}
+
 body{
-    text-align: center;
-}
-
-div{
-    width: 90%;
     margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    background-color:#ffffff; 
 }
 
+header{
+    background:url(images/newheader.jpg) no-repeat center;
+    height: 200px;
+}
 
-img{
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
+h2{
+    font-size:2em;
+    margin: 10px; 
+}
+
+.pic1{
     border: 1px solid #000000;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    /*width: is controled by sizes attribute*/ 
+}
+
+.elva img{
+    border: 1px solid #000000;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
 }
