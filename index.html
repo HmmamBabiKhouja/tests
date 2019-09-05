@@ -12,24 +12,18 @@
 
     <header></header>
     <h2>this is my website</h2>
-    <img class="pic1" srcset="images/1(320w).jpg 320w,
-                images/1(425w).jpg 425w,
-                images/1(768w).jpg 768w"
-                sizes="(max-width:320px) 300px,
-                        (max-width:425px) 380px,
-                        (max-width:768px) 730px" src="images/1(1024).jpg" alt="" />
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad error nemo voluptatem voluptates consequuntur est
-        doloremque dignissimos vitae! Beatae earum, necessitatibus assumenda facilis dignissimos rem laudantium vel
-        optio impedit in!</p>
+    <img srcset="images/1(300w).jpg 300w,
+                images/1(614w).jpg 614w,
+                images/1(819w).jpg 819w,
+                images/1(960w).jpg 960w,"
+                sizes="(max-width:300px) 300px,
+                       (max-width:614px) 614px,
+                       (max-width:819px) 819px,
+                       (max-width:960px) 960px,
+                       960px"
+                src="images/fallback.jpg"    
+                       alt="">
 
-    <picture class="elva">
-        <source media="(max-width: 799px)" srcset="images/elva-800w(cropped).jpg">
-        <source media="(min-width:800px)" srcset="images/elva-800w.jpg">
-        <img src="images/elva-800w.jpg" alt="">    
-    </picture>    
-
-
-    <picture></picture>
 </body>
 
 </html>
