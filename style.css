@@ -34,3 +34,13 @@ img{
     width: 80%;
     /*width: is controled by sizes attribute*/ 
 }
+
+.buttons{
+    margin: 20px auto;
+    text-align: center;
+}
+
+button{
+    padding: 12px;
+}
+
