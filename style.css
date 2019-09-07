@@ -13,7 +13,7 @@ html{
 body{
     margin: 0 auto;
     width: 100%;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     background-color:#ffffff; 
 }
 
@@ -28,7 +28,6 @@ h2{
 }
 
 img{
-    border: 1px solid #000000;
     display: block;
     margin: 0 auto;
     /*width: is controled by sizes attribute*/ 
