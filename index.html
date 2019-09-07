@@ -12,17 +12,17 @@
 
     <header></header>
     <h2>this is my website</h2>
-    <img srcset="images/1(640w).jpg 640w,
+    <img
+    src="images/1fallback.jpg"    
+    srcset="images/1(640w).jpg 640w,
                  images/1(768w).jpg 768w,
                  images/1(1024w).jpg 1024w,
                  images/1(1366w).jpg 1366w,
                  images/1(1600w).jpg 1600w,
                  images/1(1920w).jpg 1920w"
-                sizes="(min-width:960px) 960px,
-                       100vw"
-                src="images/1fallback.jpg"    
-                       alt="">
-    <div class="buttons">
+                sizes='(min-width: 960px) 960px,
+                100vw'/>
+   <div class="buttons">
             <button onclick="showWidth()">width</button>
             <button onclick="showHeight()">height</button>
     </div>
