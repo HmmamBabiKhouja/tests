@@ -6,33 +6,10 @@
     outline: none;
 }
 
-html{
-    background-color:#bbbbbb;
-}
-
 body{
     margin: 0 auto;
     width: 100%;
-    /* max-width: 1200px; */
-    background-color:#ffffff; 
 }
-
-header{
-    background:url(images/newheader.jpg) no-repeat center;
-    height: 200px;
-}
-
-h2{
-    font-size:2em;
-    margin: 10px; 
-}
-
-img{
-    display: block;
-    margin: 0 auto;
-    /*width: is controled by sizes attribute*/ 
-}
-
 .buttons{
     margin: 20px auto;
     text-align: center;
