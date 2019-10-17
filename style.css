@@ -1,3 +1,7 @@
+html{
+    font-size: 32px;
+}
+
 *{
     margin:0;
     padding:0;
@@ -10,11 +14,21 @@ body{
     margin: 0 auto;
     width: 100%;
 }
-.buttons{
-    margin: 20px auto;
-    text-align: center;
+
+
+table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border-collapse: collapse;
 }
 
-button{
-    padding: 12px;
+table,
+td {
+    border: 1px solid black;
+}
+
+td{
+    padding:7px ;
 }
